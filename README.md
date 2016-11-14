@@ -19,59 +19,59 @@ The following list contains all variables that need to be set. Variables without
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>do_token</tt></td>
+    <td>do_token</td>
     <td>DigitalOcean access token</td>
-    <td><tt>-</tt></td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><tt>ssh_fingerprint</tt></td>
+    <td>ssh_fingerprint</td>
     <td>SSH key to access the droplets</td>
-    <td><tt>-</tt></td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><tt>private_key</tt></td>
+    <td>private_key</td>
     <td>Path to the private SSH key</td>
-    <td><tt>-</tt></td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><tt>user</tt></td>
+    <td>user</td>
     <td>Remote exec username</td>
-    <td><tt>-</tt></td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><tt>default_domain</tt></td>
+    <td>default_domain</td>
     <td>Domain name for the infrastructure</td>
-    <td><tt>-</tt></td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><tt>image</tt></td>
+    <td>image</td>
     <td>Droplet image / operating system</td>
-    <td><tt>centos-6-x64</tt></td>
+    <td>centos-6-x64</td>
   </tr>
   <tr>
-    <td><tt>region</tt></td>
+    <td>region</td>
     <td>Droplet region / data center</td>
-    <td><tt>fra1</tt></td>
+    <td>fra1</td>
   </tr>
   <tr>
-    <td><tt>lb_count</tt></td>
+    <td>lb_count</td>
     <td>Number of load balancers</td>
-    <td><tt>1</tt></td>
+    <td>1</td>
   </tr>
   <tr>
-    <td><tt>lb_size</tt></td>
+    <td>lb_size</td>
     <td>Load balancer droplet size</td>
-    <td><tt>512mb</tt></td>
+    <td>512mb</td>
   </tr>
   <tr>
-    <td><tt>web_count</tt></td>
+    <td>web_count</td>
     <td>Number of web servers</td>
-    <td><tt>2</tt></td>
+    <td>2</td>
   </tr>
   <tr>
-    <td><tt>web_size</tt></td>
+    <td>web_size</td>
     <td>Web server droplet size</td>
-    <td><tt>512mb</tt></td>
+    <td>512mb</td>
   </tr>
 </table>
 
